@@ -1,3 +1,3 @@
 # README
 
-This is a mad lib generator created as a beginner Python project.
+This is a repo of beginner Python projects.
