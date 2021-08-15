@@ -1,5 +1,3 @@
-# Start prompts.
-
 adj1 = input('Enter an adjective: ')
 adj2 = input('Enter an adjective: ')
 noun1 = input('Enter a noun: ')
@@ -18,7 +16,6 @@ place1 = input('Enter a place: ')
 verbing4 = input('Enter a verb ending in "ing": ')
 adj3 = input('Enter an adjective: ')
 
-# Verify that number1 is an integer.
 while True:
        try:
               number1 = int(input('Enter a whole number: '))
@@ -27,14 +24,8 @@ while True:
               continue
        else:
               break
-
- # Continue with prompts.      
 pnoun4 = input('Enter a plural noun: ')
-
-# Notify users that all prompts have been entered.
-print('\nYou have entered all the prompts. Now for the mad lib!\n')
-
-# Print mad lib.
+print('You have entered all the prompts. Now for the mad lib!')
 print('A vacation is when you take a trip to some ' + adj1 + ' place with your ' + adj2 + ' family. Usually you go to'
 ' some place that is near a/an ' + noun1 + ' or up on a/an ' + noun2 + '. A good vacation place is one where'
 ' you can ride ' + pnoun1 + ' or play ' + game1 + ' or go hunting for ' + pnoun2 + '. I like to spend my time '
